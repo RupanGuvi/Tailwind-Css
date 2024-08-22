@@ -10,7 +10,7 @@
     <!-- Background Images -->
     <!-- https://tailwindcss.com/docs/background-image -->
     <div
-      class="h-screen w-full bg-blue-500 "
+      class="h-screen w-full bg-blue-500  bg-center bg-no-repeat bg-cover  "
       style="
         background-image: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
       "
@@ -20,15 +20,15 @@
     <!-- https://tailwindcss.com/docs/drop-shadow -->
    
     <div class="flex flex-wrap">
-      <div class="w-[400px] mt-10 ml-4 p-3 ">Shadow Medium</div>
-      <div class="w-[400px] mt-10 ml-7 p-3 ">Shadow Large</div>
-      <div class="w-[400px] mt-10 ml-7 p-3 ">Shadow Extra Large</div>
-      <div class="w-[400px] mt-10 ml-7 p-3 ">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow Medium</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">Shadow Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">Shadow Extra Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3  shadow-2xl">
         Shadow 2x Extra Large
       </div>
-      <div class="w-[400px] mt-10 ml-7 p-3 ">Inner Shadow</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner Shadow</div>
       <!-- Shadow Colors -->
-      <div class="w-[400px] mt-10 ml-7 p-3 ">
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-teal-300/40">
         Colord Shadow
       </div>
     </div>
@@ -36,7 +36,7 @@
     <!-- Gradients -->
     <!-- https://tailwindcss.com/docs/gradient-color-stops -->
     <div
-      class="h-40  m-10 text-center p-40"
+      class="h-40  m-10 text-center p-40 bg-gradient-to-r from-pink-300 to-red-500"
     >
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quas
       eaque doloribus esse, obcaecati consectetur aperiam odit, deserunt
@@ -44,7 +44,7 @@
       Corrupti, neque?
     </div>
     <div
-      class="h-40  m-10 text-center p-40"
+      class="h-40  m-10 text-center p-40 bg-gradient-to-r from-cyan-500 via-purple-500 to-teal-500"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Est animi enim
       optio illum necessitatibus dolorem harum eaque. Necessitatibus velit
